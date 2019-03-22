@@ -1,0 +1,37 @@
+{
+  "name": "liri_bot",
+  "version": "1.0.0",
+  "description": "This app will use node and axios to get data from Spotify, OMDB and Bands In Town APIs and give us responses",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianafinamori/LiriNodeHomework.git"
+  },
+  "keywords": [
+    "Spotify",
+    "OMDB",
+    "Bands",
+    "in",
+    "Town",
+    "songs",
+    "movie",
+    "band",
+    "datetime",
+    "venue"
+  ],
+  "author": "MF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianafinamori/LiriNodeHomework/issues"
+  },
+  "homepage": "https://github.com/marianafinamori/LiriNodeHomework#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  }
+}
